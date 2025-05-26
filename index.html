@@ -50,9 +50,9 @@
                             <li class="nav-item">
                                 <a class="nav-link me-lg-3" href="#projects">Projects</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link me-lg-3" href="#contact">Contact</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -68,13 +68,13 @@
                     <!-- Right side  -->
                     <div class="col-lg-8 col-xl-7 col-xxl-6">
                         <div class="my-5">
-                            <h2 class="text-center fw-light mb-2">Hi! i'm Hezekiah (Zeke),</h2>
-                            <h2 class="text-success text-center fw-bold mb-2"> a Software Engineering Student</h2>
+                            <h2 class="text-center fw-bold mb-2">Hi! i'm Hezekiah (<span class="text-success fw-bold">Zeke</span>),</h2>
+                            <h2 class="text-success text-center fw-bold mb-2">A Software Engineering Student</h2>
                             <p class="lead text-muted justify-content-center ms-md-4">I transform complex technological
                                 challenges into simple solutions.</p>
                             <div class="d-grid gap-3 d-sm-flex justify-content-center">
                                 <a class="btn btn-success btn-large text-uppercase" href="#about">
-                                    Learn More
+                                    About Me
                                     <i class="bi bi-patch-question ms-2"></i>
                                 </a>
                                 <a class="btn btn-outline-success btn-large text-uppercase" href="#projects">
@@ -86,7 +86,7 @@
                     </div>
                     <!-- Left side -->
                     <div class="col-lg-4 col-xl-5 col-xxl-6 justify-content-center">
-                        <img src="images/hero3.jpg" alt="" class="img-fluid rounded-pill my-5">
+                        <img src="images/hero4.jpg" alt="" class="img-fluid rounded-3 my-5">
                     </div>
                 </div>
             </div>
@@ -97,15 +97,25 @@
             <!-- About -->
             <section class="text-center py-5" id="about">
                 <div class="row justify-content-center">
-                    <h2 class="fw-bold">About</h2>
+                    <h2 class="fw-bold">About Me</h2>
                     <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 col-xxl-4">
                         <p class="lead text-muted mb-5">I'm a second-year Software Engineering student at the University
-                            of Ottawa with a focus on becoming a <span class="fst-italic">Software Developer</span>. My passion and curiosity
+                            of Ottawa with a focus on becoming a <span class="fst-italic text-success">Software Developer</span>. My passion and curiosity
                             about technological possibilities drives me to take steps towards achieving this goal.</p>
                     </div>
                 </div>
                 <div class="container mt-5 mb-5">
                     <div class="row">
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="d-flex mb-3">
+                                <i class="bi bi-palette m-auto text-success fw-bold display-3"></i>
+                                <span></span>
+                            </div>
+                            <h5>Design</h5>
+                            <p class="text-muted mb-0">
+                                I have a keen eye for design and enjoy creating visually appealing user interfaces.
+                            </p>
+                        </div>
                         <div class="col-lg-4 mx-auto mb-5">
                             <div class="d-flex mb-3">
                                 <i class="bi bi-file-earmark-code m-auto text-success fw-bold display-3"></i>
@@ -117,22 +127,12 @@
                         </div>
                         <div class="col-lg-4 mx-auto mb-5">
                             <div class="d-flex mb-3">
-                                <i class="bi bi-motherboard m-auto text-success fw-bold display-3"></i>
+                                <i class="bi bi-briefcase m-auto text-success fw-bold display-3"></i>
                                 <span></span>
                             </div>
-                            <h5>Embedded</h5>
+                            <h5>Services</h5>
                             <p class="text-muted mb-0">
-                                I work with microcontrollers and sensors to build functional, low-level systems.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 mx-auto mb-5">
-                            <div class="d-flex mb-3">
-                                <i class="bi bi-robot m-auto text-success fw-bold display-3"></i>
-                                <span></span>
-                            </div>
-                            <h5>Robots</h5>
-                            <p class="text-muted mb-0">
-                                My goal is to build problem-solving autonomous and adaptive systems.
+                                I offer a wide range of services including web development and technical consulting.
                             </p>
                         </div>
                     </div>
@@ -153,77 +153,70 @@
                 <div class="container mb-5">
                     <div class="row">
                         <div class="col-lg-4 mx-auto mb-5">
-                            <div class="card h-100 shadow-lg border-0 bg-light">
-                                <img class="card-img-top" src="images/project1.png" alt="Project 1">
+                            <div class="card h-100 shadow-lg border-1 bg-light">
+                                <img class="card-img-top" src="images/piano.jpg" alt="piano">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title mb-3">Cryptocurrency Dashboard</h5>
+                                    <h5 class="card-title mb-3">Tutor Me Allegro</h5>
                                     <div class="mb-2">
-                                        <div class="badge bg-success rounded-pill">Django</div>
-                                        <div class="badge bg-success rounded-pill">React</div>
+                                        <div class="badge bg-success rounded-pill">Service Site</div>
+                                        <div class="badge bg-success rounded-pill">Bootstrap</div>
                                         <div class="badge bg-success rounded-pill">Material UI</div>
                                     </div>
                                     <p class="card-text">
-                                        A cryptocurrency dashboard app built using React 17,
-                                        Material UI 5 and Chart.js 3.
+                                        A service site to connect students with piano tutors.
                                     </p>
                                 </div>
                                 <div class="card-footer bg-transparent mb-3">
                                     <a class="btn btn-outline-success btn-sm text-uppercase"
-                                        href="https://github.com/BobsProgrammingAcademy/cryptocurrency-dashboard"
-                                        target="_blank">
-                                        <span class="material-icons-outlined me-1">code</span>
-                                        Source Code
+                                        href="hold/piano-project.html">
+                                        <i class="bi bi-box-arrow-up-right"></i>
+                                        View Project
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 mx-auto mb-5">
-                            <div class="card h-100 shadow-lg border-0 bg-light">
-                                <img class="card-img-top" src="images/project2.png" alt="Project 2">
+                            <div class="card h-100 shadow-lg border-1 bg-light">
+                                <img class="card-img-top" src="images/environment.jpg" alt="environment">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title mb-3">Portfolio Website</h5>
+                                    <h5 class="card-title mb-3">EcoQuest Adventure</h5>
                                     <div class="mb-2">
-                                        <div class="badge bg-success rounded-pill">Django</div>
-                                        <div class="badge bg-success rounded-pill">React</div>
-                                        <div class="badge bg-success rounded-pill">Material UI</div>
+                                        <div class="badge bg-success rounded-pill">Game Design</div>
+                                        <div class="badge bg-success rounded-pill">UI/UX Design</div>
+                                        <div class="badge bg-success rounded-pill">Adobe XD</div>
                                     </div>
                                     <p class="card-text">
-                                        A portfolio website built using Django 3, Next.js 12 and
-                                        Material UI 5 that uses a PostgreSQL database to store
-                                        data.
+                                        An interactive game designed to educate players about environmental issues.
                                     </p>
                                 </div>
                                 <div class="card-footer bg-transparent mb-3">
                                     <a class="btn btn-outline-success btn-sm text-uppercase"
-                                        href="https://github.com/BobsProgrammingAcademy/portfolio-website"
-                                        target="_blank">
-                                        <span class="material-icons-outlined me-1">code</span>
-                                        Source Code
+                                        href="hold/eco-project.html">
+                                        <i class="bi bi-box-arrow-up-right"></i>
+                                        View Project
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 mx-auto mb-5">
-                            <div class="card h-100 shadow-lg border-0 bg-light">
-                                <img class="card-img-top" src="images/project3.png" alt="Project 3">
+                            <div class="card h-100 shadow-lg border-1 bg-light">
+                                <img class="card-img-top" src="images/analytics.jpg" alt="fitness">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title mb-3">Image Classification</h5>
+                                    <h5 class="card-title mb-3">FitTrack Analytics</h5>
                                     <div class="mb-2">
-                                        <div class="badge bg-success rounded-pill">Django</div>
-                                        <div class="badge bg-success rounded-pill">React</div>
-                                        <div class="badge bg-success rounded-pill">Material UI</div>
+                                        <div class="badge bg-success rounded-pill">Visualization</div>
+                                        <div class="badge bg-success rounded-pill">Dashboard Design</div>
+                                        <div class="badge bg-success rounded-pill">User Testing</div>
                                     </div>
                                     <p class="card-text">
-                                        An image classification app built using TensorFlow 2,
-                                        Django 3, React 17 and Material UI 5.
+                                        A dashboard application that visualizes fitness data for users to track their progress.
                                     </p>
                                 </div>
                                 <div class="card-footer bg-transparent mb-3">
                                     <a class="btn btn-outline-success btn-sm text-uppercase"
-                                        href="https://github.com/BobsProgrammingAcademy/image-classification-mnist"
-                                        target="_blank">
-                                        <span class="material-icons-outlined me-1">code</span>
-                                        Source Code
+                                        href="hold/analytics-project.html">
+                                        <i class="bi bi-box-arrow-up-right"></i>
+                                        View Project
                                     </a>
                                 </div>
                             </div>
@@ -236,6 +229,7 @@
 
 
             <!-- Contact -->
+             <!-- coming soon -->
             <!-- End Contact -->
         </main>
     </div>
